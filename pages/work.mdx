@@ -6,26 +6,43 @@ date: 2022-01-07
 
 # Works
 
-Here's some of my works.
 
 import Image from 'next/image'
+import Link from 'next/link'
 
-<Image
-  src="/images/photo2.jpg"
-  alt="Photo"
-  width={1125}
-  height={750}
-  priority
-  className="next-image"
-/>
-[Unsplash ↗ ](https://unsplash.com/photos/WeYamle9fDM)
 
-<Image
-  src="/images/photo.jpg"
-  alt="Photo"
-  width={1125}
-  height={750}
-  priority
-  className="next-image"
-/>
-[Unsplash ↗ ](https://unsplash.com/photos/ndN00KmbJ1c)
+---
+
+<h3>app01</h3>
+<Link href="">
+  <a target="_blank">
+  <Image
+    src="/images/photo2.jpg"
+    alt="Photo"
+    width={1125}
+    height={750}
+    priority
+    className="next-image"
+  />
+  </a>
+</Link>
+<p>app01の説明</p>
+
+---
+
+<h3>app02</h3>
+<Link href="">
+  <a target="_blank">
+  <Image
+    src="/images/photo2.jpg"
+    alt="Photo"
+    width={1125}
+    height={750}
+    priority
+    className="next-image"
+  />
+  </a>
+</Link>
+<p>app02の説明</p>
+
+---
